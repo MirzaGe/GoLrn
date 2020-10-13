@@ -3,10 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(greet("Jane ", "Doe"))
+	foo(2, 3, 4, 5, 5, 6)
 }
 
-func greet(fname string, lname string) (s string) {
-	s = fmt.Sprint(fname, lname)
-	return
+func foo(x ...int) {
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
+
+	sum := 0
+	for i, v := range x {
+		sum += v
+		fmt.Println("for item in index position", i, "we are now adding,", v, sum)
+	}
+
+	fmt.Println("The total is,", sum)
 }
