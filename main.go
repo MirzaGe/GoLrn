@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	foo(2, 3, 4, 5, 5, 6)
+	fmt.Println("The total is", x)
 }
 
 func foo(x ...int) {
@@ -17,4 +18,5 @@ func foo(x ...int) {
 	}
 
 	fmt.Println("The total is,", sum)
+	return sum
 }
