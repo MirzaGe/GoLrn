@@ -3,20 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	foo(2, 3, 4, 5, 5, 6)
-	fmt.Println("The total is", x)
+	defer foo()
+	bar()
 }
 
-func foo(x ...int) {
-	fmt.Println(x)
-	fmt.Printf("%T\n", x)
-
-	sum := 0
-	for i, v := range x {
-		sum += v
-		fmt.Println("for item in index position", i, "we are now adding,", v, sum)
-	}
-
-	fmt.Println("The total is,", sum)
-	return sum
+func foo() {
+	fmt.Println("foo")
+}
+func bar() {
+	fmt.Println("bar")
 }
