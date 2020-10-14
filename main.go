@@ -1,32 +1,29 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	ii := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	s := sum(ii...)
-	fmt.Println("all number", s)
-	s2 := even(sum, ii...)
-	fmt.Println("even numbers", s2)
+	t := evenSum(sum, []int{1, 2, 3, 4, 5, 6, 7, 8, 9}...)
+	fmt.Println(t)
 }
 
-func sum(xi ...int) int {
-	fmt.Printf("%T\n", xi)
-	total := 0
-	for _, v := range xi {
-		total += v
+func sum(x ...int) int {
+	n := 0
+	for _, v := range x {
+		n += v
 	}
-	return total
+	return n
 }
 
-func even(f: func(xi ...int) int, vi...int) int {
-	var yi [] int
-	for _, v:= range vi {
-		if v % 2 == 0 {
-			yi = append(yi, v)
+func evenSum(f func(x ...int) int, y ...int) int {
+	var xi []int
+	for _, v := range y {
+		if v%2 == 0 {
+			xi = append(xi, v)
 		}
 	}
-	return f(yi...)
-
+	total := f(xi...)
+	return total
 }
-
