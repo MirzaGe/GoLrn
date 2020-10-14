@@ -3,8 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	f := func() {
-		fmt.Println("the year big:", x)
-	}
-	g(1984)
+	s1 := foo()
+	fmt.Println(s1)
+}
+func foo() string {
+	s := "Hello world"
+	return s
 }
