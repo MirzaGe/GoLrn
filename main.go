@@ -4,7 +4,9 @@ import "fmt"
 
 func main() {
 	foo()
-	fmt.Println("Hello, playground")
+	func() {
+		fmt.Println("Anonymous func ran")
+	}()
 }
 func foo() {
 	fmt.Println("foo ran")
