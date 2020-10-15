@@ -5,4 +5,15 @@ import "fmt"
 var x int
 
 func main() {
-fmt.Println(4)
+	n := foo()
+	x, s := bar()
+
+	fmt.Println(n, x, s)
+}
+
+func foo() int {
+	return 42
+}
+func bar() (int, string) {
+	return 1984, "Big Brother is Watching"
+}
