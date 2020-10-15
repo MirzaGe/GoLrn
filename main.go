@@ -1,24 +1,25 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+type person struct {
+	first string
+	last  string
+	age   int
+}
+
+func (p person) speak() {
+	fmt.Println("I am", p.first, p.last, "and I am", p.age, "years old.")
+}
 
 func main() {
-	ii := []int{1,2,3,4,5,6,7}
-	n := bar(ii2)
-	fmt.Println(n2)
-}
+	p1 := person{
+		first: "James",
+		last:  "Bond",
+		age:   32,
+	}
 
-func foo(xi ...int) int {
-	total := 0
-	for _, v := range xi {
-		total += v
-	}
-	return total
-}
-func bar(xi []int) int{
-	total := 0
-	for . v := range xi {
-		total += v
-	}
-	return total
+	p1.speak()
 }
