@@ -2,19 +2,20 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
+type person struct {
+	first string
+	age   int
+}
+
 func main() {
-	xi := []int{444444, 7888, 98, 55, 66, 77, 777, 7545}
-	xs := []string{"james", "Q", "M", "Moneypenny", "Dr. No"}
+	p1 := person{"james", 32}
+	p2 := person{"Moneypenny", 27}
+	p3 := person{"Q", 64}
+	p4 := person{"M", 56}
 
-	fmt.Println(xi)
-	sort.Ints(xi)
-	fmt.Println(xi)
+	people := []person{p1, p2, p3, p4}
 
-	fmt.Println("----------")
-	fmt.Println(xs)
-	sort.Strings(xs)
-	fmt.Println(xs)
+	fmt.Println(people)
 }
