@@ -1,39 +1,19 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
+	"sort"
 )
 
-type user struct {
-	First string
-	Age   int
-}
-
 func main() {
-	u1 := user{
-		First: "James",
-		Age:   32,
-	}
+	xi := []int{5, 8, 2, 43, 17, 987, 14, 12, 21, 1, 4, 2, 3, 93, 13}
+	xs := []string{"random", "rainbow", "delights", "in", "torpedo", "summers", "under", "gallantry", "fragmented", "moons", "across", "magenta"}
 
-	u2 := user{
-		First: "Moneypenny",
-		Age:   27,
-	}
+	fmt.Println(xi)
+	sort.Ints(xi)
+	fmt.Println(xi)
 
-	u3 := user{
-		First: "M",
-		Age:   54,
-	}
-
-	users := []user{u1, u2, u3}
-
-	fmt.Println(users)
-
-	bs, err := json.Marshal(users)
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	fmt.Println(string(bs))
+	fmt.Println(xs)
+	sort.Strings(xs)
+	fmt.Println(xs)
 }
