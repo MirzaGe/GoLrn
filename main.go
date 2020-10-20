@@ -14,12 +14,17 @@ func main() {
 	fmt.Println("about to exit")
 }
 
-// send channel //
+// send channel
 func send(c chan<- int) {
-	c <- 42
+	for i := 0; i < 100; i++ {
+		c <- i
+	}
+	close(c)
 }
 
 // receive channel
 func receive(c <-chan int) {
-	fmt.Println("the value received from the channel:", <-c)
+	for v := range c {
+		fmt.Println("the value received from the channel:", v)
+	}
 }
