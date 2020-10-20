@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("about to exit")
 }
 
-// send channel
+// send channel //
 func send(c chan<- int) {
 	c <- 42
 }
