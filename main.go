@@ -2,32 +2,24 @@ package main
 
 import (
 	"fmt"
-	"runtime"
-	"sync"
 )
 
 func main() {
-	fmt.Println("CPUs:", runtime.NumCPU())
-	fmt.Println("Goroutines:", runtime.NumGoroutine())
+	c := make(chan int)
 
-	counter := 0
+	go send(c)
 
-	const gs = 100
-	var wg sync.WaitGroup
-	wg.Add(gs)
+	receive(c)
 
-	for i := 0; i < gs; i++ {
-		go func() {
-			v := counter
-			// time.Sleep(time.Second)
-			runtime.Gosched()
-			v++
-			counter = v
-			wg.Done()
-		}()
-		fmt.Println("Goroutines:", runtime.NumGoroutine())
-	}
-	wg.Wait()
-	fmt.Println("Goroutines:", runtime.NumGoroutine())
-	fmt.Println("count:", counter)
+	fmt.Println("about to exit")
+}
+
+// send channel
+func send(c chan<- int) {
+	c <- 42
+}
+
+// receive channel
+func receive(c <-chan int) {
+	fmt.Println("the value received from the channel:", <-c)
 }
