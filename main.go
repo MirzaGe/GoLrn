@@ -1,17 +1,24 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 )
 
+type person struct {
+	First   string
+	Last    string
+	Sayings []string
+}
+
 func main() {
-	cs := make(chan<- int)
+	p1 := person{
+		First:   "James",
+		Last:    "Bond",
+		Sayings: []string{"Shaken, not stirred", "Any last wishes?", "Never say never"},
+	}
 
-	go func() {
-		cs <- 42
-	}()
-	fmt.Println(<-cs)
+	bs, _ := json.Marshal(p1)
+	fmt.Println(string(bs))
 
-	fmt.Printf("------\n")
-	fmt.Printf("cs\t%T\n", cs)
 }
