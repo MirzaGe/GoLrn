@@ -5,9 +5,13 @@ import (
 )
 
 func main() {
-	c := make(chan int)
+	cs := make(chan<- int)
 
-	c <- 42
+	go func() {
+		cs <- 42
+	}()
+	fmt.Println(<-cs)
 
-	fmt.Println(<-c)
+	fmt.Printf("------\n")
+	fmt.Printf("cs\t%T\n", cs)
 }
