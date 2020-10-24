@@ -16,7 +16,7 @@ func (se sqrtError) Error() string {
 }
 
 func main() {
-	_, err := sqrt(-10.23)
+	_, err := sq
 	if err != nil {
 		log.Println(err)
 	}
