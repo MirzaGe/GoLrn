@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7807b8-cb28-40bf-b581-bd158f1f2875" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="commit." />
+    <MESSAGE value="utf-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="utf-8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="149" y="23" key="SettingsEditor" timestamp="1603597246515">
