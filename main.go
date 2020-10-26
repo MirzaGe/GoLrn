@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	for i := 60; i < 122; i++ {
-		fmt.Printf("%d \t %b \t %x \t %q \n", i, i, i, i)
-	}
+	a := 10
+	b := "golang"
+	c := 4.17
+	d := true
+
+	fmt.Printf("%v \n", a)
+	fmt.Printf("v \n", b)
+	fmt.Printf("%v \n", c)
+	fmt.Printf("%v \n", d)
 }

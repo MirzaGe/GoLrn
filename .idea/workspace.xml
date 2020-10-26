@@ -33,7 +33,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,21 +59,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit" />
     <MESSAGE value="commit." />
     <MESSAGE value="utf-8" />
     <MESSAGE value="utf-" />
-    <option name="LAST_COMMIT_MESSAGE" value="utf-" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="149" y="23" key="SettingsEditor" timestamp="1603597246515">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="69" y="23" width="982" height="710" key="SettingsEditor" timestamp="1603608401843">
+      <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="149" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603597246515" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1603607351595">
+    <state x="69" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1603608401843" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1603607650279">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603607351595" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603607650279" />
     <state x="347" y="32" width="586" height="735" key="find.popup" timestamp="1603513962361">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -84,8 +85,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/main.go</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
+          <line>4</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
