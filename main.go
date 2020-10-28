@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func zero(x *int) {
-	*x = 0
+func zero(x int) {
+	x = 0
 }
 func main() {
 	x := 5
-	zero(&x)
+	zero(x)
 	fmt.Println(x)
 }
 
