@@ -6,6 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7807b8-cb28-40bf-b581-bd158f1f2875" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,10 +72,10 @@
     </state>
     <state x="149" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603597246515" />
     <state x="69" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1603608401843" />
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1603907617133">
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2" timestamp="1603908192269">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603907617133" />
+    <state x="240" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1603908192269" />
     <state x="347" y="32" width="586" height="735" key="find.popup" timestamp="1603513962361">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
