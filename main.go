@@ -2,19 +2,10 @@ package main
 
 import "fmt"
 
-var x = 0
-
-func increment() int {
-	x++
-	return x
-}
+const p string = "death and taxes"
 
 func main() {
-	x++
-	return x
-}
-
-func main() {
-	fmt.Println(increment())
-	fmt.Println(increment())
+	const q = 42
+	fmt.Println("p - ", p)
+	fmt.Println("q - ", q)
 }
