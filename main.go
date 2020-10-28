@@ -2,13 +2,23 @@ package main
 
 import "fmt"
 
-func zero(x int) {
-	x = 0
-}
 func main() {
-	x := 5
-	zero(x)
+	x := 11 % 3
 	fmt.Println(x)
+	if x == 1 {
+		fmt.Println("Odd")
+	} else {
+		fmt.Println("Even")
+	}
+
+	for i := 1; i < 7; i++ {
+		if i%2 == 1 {
+			fmt.Println("Odd")
+		} else {
+			fmt.Println("Even")
+		}
+	}
+
 }
 
 // constants,
