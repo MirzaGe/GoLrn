@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 
-const p string = "death and taxes"
-
 func main() {
-	const q = 42
-	fmt.Println("p - ", p)
-	fmt.Println("q - ", q)
+	a := 43
+
+	fmt.Println("a -", a)
+	fmt.Println("a's memory address - ", &a)
 }
 
 // constants,
