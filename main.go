@@ -2,13 +2,10 @@ package main
 
 import "fmt"
 
-func makeGreeter() func() string {
-	return func() string {
-		return "Hello world"
-	}
-}
 func main() {
-	greet := makeGreeter()
-	fmt.Println(greet())
-	fmt.Printf("%T", greet)
+	student := make([]string, 32)
+	students := make([][]string, 32)
+	fmt.Println(student)
+	fmt.Println(students)
+	fmt.Println(student == nil)
 }
