@@ -9,3 +9,5 @@ func main() {
 	fmt.Println(students)
 	fmt.Println(student == nil)
 }
+
+//hash table
