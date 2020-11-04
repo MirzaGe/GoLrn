@@ -1,14 +1,7 @@
 package main
 
-import (
-	"bufio"
-	"fmt"
-	"os"
-)
+import "fmt"
 
 func main() {
-	fmt.Println(("Enter a grade: "))
-	reader := bufio.NewReader(os.Stdin)
-	input := reader.ReadString('\n')
-	fmt.Println(input)
+	fmt.Println("1+1 = ", 1+1)
 }
