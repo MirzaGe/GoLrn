@@ -1,12 +1,14 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
-	"time"
+	"os"
 )
 
 func main() {
-	var now time.Time = time.Now()
-	var year int = now.Year()
-	fmt.Println(year)
+	fmt.Println(("Enter a grade: "))
+	reader := bufio.NewReader(os.Stdin)
+	input := reader.ReadString('\n')
+	fmt.Println(input)
 }

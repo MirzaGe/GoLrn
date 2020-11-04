@@ -6,6 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7807b8-cb28-40bf-b581-bd158f1f2875" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/head_first.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -13,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -28,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -69,18 +78,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="209" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604510686512">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="209" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1604510686512" />
     <state x="69" y="23" width="982" height="710" key="SettingsEditor" timestamp="1603608401843">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="149" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603597246515" />
     <state x="69" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1603608401843" />
-    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2" timestamp="1604439803017">
+    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2" timestamp="1604510737666">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604439803017" />
+    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604510737666" />
     <state x="750" y="100" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604226331065" />
     <state x="480" y="100" key="Vcs.Push.Dialog.v2/0.23.1280.716@0.23.1280.716" timestamp="1604346883015" />
     <state x="480" y="101" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1604343690265" />
+    <state x="770" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604510720728">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="770" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1604510720728" />
+    <state x="650" y="0" width="630" height="800" key="dock-window-1" timestamp="1604510750635">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="650" y="0" width="630" height="800" key="dock-window-1/0.23.1280.715@0.23.1280.715" timestamp="1604510750635" />
     <state x="347" y="32" width="586" height="735" key="find.popup" timestamp="1603513962361">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
