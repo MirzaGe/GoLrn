@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
+func zero(x int) {
+	x = 0
+}
 func main() {
-	defer func() {
-		str := recover()
-		fmt.Println(str)
-	}()
-	panic("PANIC")
-
+	x := 5
+	zero(x)
+	fmt.Println(x)
 }
