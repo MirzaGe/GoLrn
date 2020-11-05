@@ -2,8 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	x := make(map[int]int)
-	x[1] = 10
-	fmt.Println(x[1])
+func makeEvenGenerator() func() uint{
+	i := uint(0)
+	return func() (return uint){
+		ret = i
+		i += 2
+		return makeEvenGenerator()
+
+	}
 }
