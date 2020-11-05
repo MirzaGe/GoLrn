@@ -2,13 +2,14 @@ package main
 
 import "fmt"
 
-func zero(xyz *int) {
-	*xyz = 6
+func one(x *int) {
+	*x = 1
 }
 func main() {
-	x := 7
-	zero(&x)
-	fmt.Println(x)
+	y := new(int)
+	one(y)
+	fmt.Println(*y)
 }
-
-//
+func half(x int) (int, bool) {
+	return x / 2, x%2 == 0
+}
