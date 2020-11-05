@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func zero(x int) {
-	x = 0
+func zero(xPtr *int) {
+	*xPtr = 6
 }
 func main() {
-	x := 5
-	zero(x)
+	x := 7
+	zero(&x)
 	fmt.Println(x)
 }
