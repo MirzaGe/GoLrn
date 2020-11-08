@@ -43,9 +43,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -74,22 +74,23 @@
     <MESSAGE value="commi" />
     <MESSAGE value="." />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="209" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604511478290">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="209" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604859235700">
+      <screen x="0" y="23" width="1280" height="730" />
     </state>
     <state x="209" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1604511478290" />
+    <state x="209" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.730@0.23.1280.730" timestamp="1604859235700" />
     <state x="69" y="23" width="982" height="710" key="SettingsEditor" timestamp="1603608401843">
       <screen x="0" y="23" width="1280" height="710" />
     </state>
     <state x="149" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1603597246515" />
     <state x="69" y="23" width="982" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1603608401843" />
-    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2" timestamp="1604790625971">
+    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2" timestamp="1604844854174">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604790625971" />
+    <state x="750" y="86" width="530" height="546" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1604844854174" />
     <state x="750" y="100" key="Vcs.Push.Dialog.v2/0.23.1280.713@0.23.1280.713" timestamp="1604226331065" />
     <state x="480" y="100" key="Vcs.Push.Dialog.v2/0.23.1280.716@0.23.1280.716" timestamp="1604346883015" />
     <state x="750" y="101" width="530" height="546" key="Vcs.Push.Dialog.v2/0.23.1280.721@0.23.1280.721" timestamp="1604697152557" />
